@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.container{
+    padding: 37px 112px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo__img{
+    margin-bottom: 85px;
+}
+
+.header-logo__bigImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.header-logo__data{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+    margin-bottom: 78px;
+
+}
+
+ul li{
+    list-style: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.header-logo__title h1{
+    font-size: 88px;
+    font-family: 'Chava';
+}
+
+.header-sing__info{
+    max-width: 930px;
+    font-size: 27px;
+    margin: 40px 0;
+    line-height: 38px;
+}
+.header-sing__button button{
+    font-size: 18px;
+    width: 328px;
+    background-color: white;
+    padding: 20px;
+    color:  #6E3ABA;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+.header-sing__button button:hover{
+    background-color: #6E3ABA;
+    color: white;
+    
+}
+
+main{
+    margin-top: 160px;
+}
+.main-card{
+    display: flex;
+    gap: 88px;
+    margin-bottom: 57px;
+}
+.main-title{
+    font-size: 58px;
+    font-weight: 500;
+    max-width: 770px;
+    margin-bottom: 90px;
+}
+.card :nth-child(2){
+    font-size: 27px;
+    font-weight: 600;
+    margin: 2px 0 20px 0;
+    max-width: 430px;
+}
+.card :nth-child(3){
+    max-width: 470px;
+    font-size: 27px;
+    line-height: 38px;
+}
